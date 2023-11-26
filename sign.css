@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    transition: 0.5s ease;
+}
+.container{
+    position: relative;
+    width: 800px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.171);
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:33px ;
+}
+.box p{
+    color: #fff;
+    font-size: 20px;
+}
+.box button{
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.container_slider{
+    position: absolute;
+    width: 350px;
+    height: 520px;   
+    left: 50px;
+    z-index: 10;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.logBox{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    transition: .3s ease;
+}
+.logb{
+   left: 400px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+form input{
+    width: 100%;
+    height: 35px;
+    padding: 7px;
+}
+form{
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+form input:last-child{
+    background-color: rgb(7, 219, 219);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.logup{
+   position: relative;
+   transform: translateY(-520px);
+}
+a{
+    color: rgb(2, 194, 194);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.red,form .bb{
+    background-color: brown !important;
+}
+
